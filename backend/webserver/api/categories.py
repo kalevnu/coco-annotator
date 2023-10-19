@@ -7,6 +7,7 @@ from ..util import query_util
 from database import CategoryModel, AnnotationModel
 
 import datetime
+coco-annotator = 1
 
 api = Namespace('category', description='Category related operations')
 
